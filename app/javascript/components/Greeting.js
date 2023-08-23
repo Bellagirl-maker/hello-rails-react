@@ -11,7 +11,7 @@ const Greeting = () => {
     dispatch(getGreeting());
   }, []);
 
-  if (greeting.isLoading) {
+  if (greeting.loading) {
     return <p>Loading...</p>;
   }
 
